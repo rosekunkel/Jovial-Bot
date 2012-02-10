@@ -1,5 +1,6 @@
 This is a bot for http://turntable.fm/
 This bot also requires the turntable API at https://github.com/alaingilbert/Turntable-API
+
 Commands for the bot:
 	leave 			|leave the room
 	say something 	|speak the phrase "something" in chat
@@ -12,6 +13,7 @@ Commands for the bot:
 	print setting	|output the setting "setting" to the console
 	register roomid |join the room specified by "roomid"
 	exit			|close the console
+
 Features:
 	A TCP command line at localhost:5001
 	A TCP log at localhost:5002
@@ -19,9 +21,11 @@ Features:
 	A blacklist
 	Tracking of room statistics
 	Interactive chatting through the bot
+
 Modes:
 	meme		|enable the bot's meme-related responses, e.g. When someone says "nope", the bot will respond with "Chuck Testa"
 	hostile		|enable the blacklist
+
 Settings and environment variables:
 	modes		|the current state of the bot's modes
 	users		|the current users in the room
@@ -31,5 +35,6 @@ Settings and environment variables:
 	has_voted	|whether or not the bot has voted
 	is_dj		|whether or not the bot is a DJ
 	room_id		|the current room id
+
 Notes and warnings:
 	This bot was designed for a room that does not allow downvoting, and thus will issue warnings for downvoting.
