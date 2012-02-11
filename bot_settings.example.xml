@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bot-settings>
+	<auth>PUT AUTH HERE</auth>
+	<userid>PUT USERID HERE</userid>
+	<roomid>PUT ROOMID HERE</roomid>
+	<admin>PUT THE BOT ADMIN ID HERE</admin>
+</bot-settings>

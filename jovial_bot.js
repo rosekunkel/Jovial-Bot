@@ -1,5 +1,4 @@
-﻿var turntable_api_directory = '../Turntable-API/';
-var Bot			= require( turntable_api_directory + 'index' ),
+﻿var Bot			= require( 'ttapi' ),
 	TCP			= require( './tcp_setup.js' ),
 	Room		= require( './room.js' ),
 	Modes		= require( './modes.js' ),
