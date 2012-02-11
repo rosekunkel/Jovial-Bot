@@ -1,0 +1,44 @@
+﻿This is a bot for http://turntable.fm/
+This bot also requires the turntable API at https://github.com/alaingilbert/Turntable-API
+
+Commands for the bot*:
+	leave				Leave the room
+	say <something>		Speak the phrase <something> in chat
+	awesome			Upvote
+	up				Become a DJ
+	down				Stop Dj-ing
+	toggle <mode>		Toggle the mode <mode>
+	fan <user>			Fan the user <user>
+	fan me**			Fan the speaker
+	print <setting>***	Output <setting> to the console
+	register <roomid>***	Join the room <roomid>
+	exit***			Close the console
+
+*Commands in the chat must be prefaced with #
+**Turntable chat only
+***TCP only
+
+Features:
+	-A TCP command line at localhost:5001
+	-A TCP log at localhost:5002
+	-Multiple modes to change the bot's behavior
+	-A blacklist
+	-Tracking of room statistics
+	-Interactive chatting through the bot
+
+Modes:
+	meme		Enable the bot's meme-related responses, e.g. When someone says "nope", the bot will respond with "Chuck Testa"
+	hostile	Enable the blacklist
+
+Settings and environment variables:
+	modes			the current state of the bot's modes
+	users			the current users in the room
+	moderators		the room's moderators
+	blacklist		the bot's blacklist
+	votes			the count of upvotes and downvotes
+	has_voted		whether the bot has voted
+	is_dj			whether the bot is a DJ
+	room_id		the current room id
+
+Notes and warnings:
+	This bot was designed for a room that does not allow downvoting, and thus will issue warnings for downvoting.
