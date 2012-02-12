@@ -3,26 +3,26 @@
 
 ## Synopsis ##
 
-This is a bot for http://turntable.fm/
+This is a bot for <http://turntable.fm/>
 
 ## Dependencies ##
-- [Alain gilbert's turntable API] (https://github.com/alaingilbert/Turntable-API)
+- [Alain Gilbert's turntable API] (https://github.com/alaingilbert/Turntable-API)
 - [xml2js] (https://github.com/Leonidas-from-XIV/node-xml2js)
 
 ## Commands for the bot\* ##
-| **Command**                 | **Effect**                             |
-| --------------------------- | -------------------------------------  |
-|  leave                      |  Leave the room                        |
-|  say _<something>_          |  Speak the phrase <something> in chat  |
-|  awesome                    |  Upvote                                | 
-|  up                         |  Become a DJ                           |
-|  down                       |  Stop Dj-ing                           |
-|  toggle _<mode>_            |  Toggle the mode <mode>                |
-|  fan _<user>_               |  Fan the user <user>                   |
-|  fan me\*\*                 |  Fan the speaker                       |
-|  print _<setting>_\*\*\*    |  Output <setting> to the console       |
-|  register _<roomid>_\*\*\*  |  Join the room <roomid>                |
-|  exit\*\*\*                 |  Close the console                     |
+| **Command**                       | **Effect**                                 |
+| --------------------------------- | ------------------------------------------ |
+|  leave                            |  Leave the room                            |
+|  say _\[something\]_              |  Speak the phrase _\[something\]_ in chat  |
+|  awesome                          |  Upvote                                    | 
+|  up                               |  Become a DJ                               |
+|  down                             |  Stop Dj-ing                               |
+|  toggle _\[mode\]_                |  Toggle the mode _\[mode\]_                |
+|  fan _\[user\]_                   |  Fan the user _\[user\]_                   |
+|  fan me\*\*                       |  Fan the speaker                           |
+|  print _\[setting\]_\*\*\*        |  Output _\[setting\]_ to the console       |
+|  register _\[roomid\]_\*\*\*      |  Join the room _\[roomid\]_                |
+|  exit\*\*\*                       |  Close the console                         |
 
 \*Commands in the chat must be prefaced with \#
 
