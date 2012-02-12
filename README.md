@@ -1,4 +1,7 @@
-﻿##Synopsis##
+﻿#Bot Overview#
+
+##Synopsis##
+
 This is a bot for http://turntable.fm/
 
 ##Dependencies##
@@ -6,7 +9,7 @@ This is a bot for http://turntable.fm/
 - [xml2js] (https://github.com/Leonidas-from-XIV/node-xml2js)
 
 ##Commands for the bot\*##
-| Command                     | Effect                                 |
+| **Command**                 | **Effect**                             |
 | --------------------------- | -------------------------------------  |
 |  leave                      |  Leave the room                        |
 |  say _<something>_          |  Speak the phrase <something> in chat  |
@@ -35,13 +38,13 @@ This is a bot for http://turntable.fm/
 - Interactive chatting through the bot
 
 ##Modes##
-| Name      | Effect                                    |
+| **Name**  | **Effect**                                |
 | --------- | ----------------------------------------- |
 |  meme     |  Enable the bot's meme-related responses  |
 |  hostile  |  Enable the blacklist                     |
 
 ##Settings and environment variables##
-| Name         | Data                                   |
+| **Name**     | **Data**                               |
 | ------------ | -------------------------------------- |
 |  modes       |  the current state of the bot's modes  |
 |  users       |  the current users in the room         |
