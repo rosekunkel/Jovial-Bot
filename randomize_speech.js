@@ -7,7 +7,7 @@ var greetings = [	['Hi, ', '.'],
 var upvote_messages = [ 'Thweet.  Upvoted.',
 						'I love this song!',
 						'<3 this song',
-						'This song is sooooo good.'
+						'This song is so good.'
 					  ];
 var rem_moderator_messages = [ 	"Hey!  Who de-modded me?  You've got a lot of nerve, buddy!",
 								'Whoa.  Whoa.  No.  You did NOT just remove my moderator status.',
@@ -24,9 +24,10 @@ var downvote_messages = [ 	"Hey!  Downvoting isn't allowed in this room.  Please
 							"Whoa man, don't, like, downvote.  It's bad karma.",
 							'Seriously, downvoting is not cool.  Read the rules, please.'
 						];
+var thanks = [	"Thanks!" ]
 
 //Randomize phrases given an array of phrases, data to be included, and whether the phrase is in two parts
-exports.randomize = function ( phrases_name, inserted_data, is_two_parts ) {
+module.exports = function ( phrases_name, inserted_data, is_two_parts ) {
 	var phrases = '';
 	switch( phrases_name ) {
 		case 'greetings':
